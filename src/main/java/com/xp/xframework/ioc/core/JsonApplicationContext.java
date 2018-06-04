@@ -8,7 +8,7 @@ import java.io.InputStream;
 import java.util.List;
 
 /**
- * @author Zhengxin
+ * @author xp
  */
 public class JsonApplicationContext extends BeanFactoryImpl{
 

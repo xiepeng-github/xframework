@@ -4,7 +4,7 @@ import java.util.List;
 
 
 /**
- * @author Zhengxin
+ * @author xp
  */
 public class BeanDefinition {
 
