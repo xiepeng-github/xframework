@@ -1,0 +1,17 @@
+[
+  {
+    "name":"robot",
+    "className":"com.xp.xframework.ioc.entity.Robot"
+  },
+  {
+    "name":"hand",
+    "className":"com.xp.xframework.ioc.entity.Hand"
+  },
+  {
+    "name":"mouth",
+    "className":"com.xp.xframework.ioc.entity.Mouth"
+  }
+]
+
+
+
