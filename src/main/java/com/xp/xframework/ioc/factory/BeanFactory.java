@@ -1,4 +1,4 @@
-package com.xp.xframework.ioc.core;
+package com.xp.xframework.ioc.factory;
 
 public interface BeanFactory {
 

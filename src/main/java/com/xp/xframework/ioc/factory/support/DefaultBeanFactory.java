@@ -1,7 +1,8 @@
-package com.xp.xframework.ioc.core;
+package com.xp.xframework.ioc.factory.support;
 
 import com.xp.xframework.ioc.bean.BeanDefinition;
 import com.xp.xframework.ioc.bean.ConstructorArg;
+import com.xp.xframework.ioc.factory.BeanFactory;
 import com.xp.xframework.ioc.utils.BeanUtils;
 import com.xp.xframework.ioc.utils.ClassUtils;
 import com.xp.xframework.ioc.utils.ReflectionUtils;
@@ -11,7 +12,7 @@ import java.lang.reflect.Field;
 import java.util.*;
 import java.util.concurrent.ConcurrentHashMap;
 
-public class BeanFactoryImpl implements BeanFactory{
+public class DefaultBeanFactory implements BeanFactory{
 
     private static final ConcurrentHashMap<String,Object> beanMap = new ConcurrentHashMap<>();
 

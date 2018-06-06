@@ -1,6 +1,7 @@
 package com.xp.xframework.ioc.core;
 
 import com.xp.xframework.ioc.bean.BeanDefinition;
+import com.xp.xframework.ioc.factory.support.DefaultBeanFactory;
 import com.xp.xframework.ioc.io.ClassPathResource;
 import com.xp.xframework.ioc.utils.JsonUtils;
 import com.fasterxml.jackson.core.type.TypeReference;
@@ -12,7 +13,7 @@ import java.util.List;
 /**
  * @author xp
  */
-public class JsonApplicationContext extends BeanFactoryImpl{
+public class JsonApplicationContext extends DefaultBeanFactory{
 
     public JsonApplicationContext(String fileName) throws IOException {
         
